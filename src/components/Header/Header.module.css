@@ -1,0 +1,64 @@
+.wrapper {
+    display: flex;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+
+}
+
+.wrapper a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+}
+
+.text {
+    margin-left: 40px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.number {
+    margin-left: 30px;
+    font-size: 10px;
+    font-weight: 600;
+
+}
+
+.coin{ 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 300px;
+
+}
+
+.coin h1{ 
+    font-size: 10px;
+
+}
+.right{ 
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.coinbtn button{ 
+   width: 50px;
+   height: 30px;
+   border-radius: 0.9em;
+   border: none;
+   cursor: pointer;
+   color: grey;
+   margin: 20px;
+}
+
+.coinbtn button:hover { 
+    color: black;
+}
