@@ -16,7 +16,7 @@ function Underheader() {
         <a href="">Контакты</a>
         <a href="">О нас</a>
         <a href="">Прямой эфир</a>
-   <Button variant='empty' title='Корзина'/> 
+   <Button variant='full' title='Корзина'/> 
 
     </div>
   )

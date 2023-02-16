@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-evenly;
     position: sticky;
-    top: 100px;
+    top: 20px;
 }
 .text a { 
     text-decoration: none;
