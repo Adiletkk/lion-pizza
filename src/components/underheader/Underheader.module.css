@@ -4,6 +4,11 @@
     justify-content: space-evenly;
     position: sticky;
     top: 20px;
+    background: #ffff;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 40px;
+    z-index: 9;
 }
 .text a { 
     text-decoration: none;

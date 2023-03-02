@@ -4,12 +4,13 @@
     align-items: center;
     box-sizing: border-box;
     margin: 15px;
-    border: 1px solid red;
+    
 }
 
 .imageWrapper{ 
     width: calc(100% - 20px);
     margin: 10px;
+    height: 200px;
 }
 .imageWrapper > img{ 
     width: 100%;
@@ -35,4 +36,6 @@
     overflow: hidden;  
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+    height: 60px;
+    
 }

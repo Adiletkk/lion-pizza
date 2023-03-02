@@ -11,3 +11,10 @@
   position: relative !important;
   top: 0 !important;
 }
+.d-flex{ 
+  display: flex;
+  flex-wrap: wrap;
+}
+.input{ 
+  border: 1px solid silver;
+}

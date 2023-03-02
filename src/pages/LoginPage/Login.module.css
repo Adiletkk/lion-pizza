@@ -1,0 +1,12 @@
+.registracion{ 
+    border-radius: 1px solid black;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-gap: 5px;
+}
+.send{ 
+    border-radius: 30px;
+    color: white;
+    border-radius: 30px ;
+}

@@ -7,8 +7,8 @@ import css from './Header.module.css'
 function Header() {
   return (
     <div className={css.wrapper + ' container'}>
-      <img className={css.logo} src='https://www.mightycall.ru/wp-content/uploads/2014/09/dodo-pitstsa.jpg' alt='dodopizza' />
       <Link to='/'>
+      <img className={css.logo} src='https://www.mightycall.ru/wp-content/uploads/2014/09/dodo-pitstsa.jpg' alt='dodopizza' />
       </Link>
       <div className={css.text}>
         <h1>Доставка пиццы Бишкек </h1>
@@ -26,7 +26,7 @@ function Header() {
          
       </div>
       <div className={css.coinbtn}>
-        <button>Войти</button>
+        <Link to='/login'>Войти</Link>
       </div>
       </div>
     </div>
